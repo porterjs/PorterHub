@@ -1,0 +1,22 @@
+\documentclass{article} 
+\usepackage{amsmath}
+\usepackage{lipsum}
+
+\newcommand\BrText[2]{%
+  \par\smallskip
+   \noindent\makebox[\textwidth][l]{$\left.\nulldelimiterspace=0pt
+    \begin{minipage}{.60\textwidth}
+    \textit{"#2"}
+    \end{minipage} \vspace{1 em} \right\}
+	\begin{minipage}{.30\textwidth}
+	#1
+	\end{minipage}  
+  $}\par\smallskip
+}    
+
+\begin{document}
+\lipsum[1]
+\BrText{This sucks}{\lipsum[1]}
+\lipsum[1]
+
+\end{document}

@@ -1,0 +1,143 @@
+\documentclass[A4]{article}
+
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{blindtext}		% Auto-fill with bogus text
+\usepackage{graphicx,calc}	% allows includegraphics
+\usepackage{wrapfig}	% allows useage of wrapfigure environment
+\usepackage{amsmath}	% for math environment and fractions
+\usepackage{multicol}	% creates multiple columns
+\usepackage{kantlipsum}
+\usepackage{caption}
+\usepackage{amssymb}	
+\usepackage{ragged2e}	%\justify
+\usepackage[nodisplayskipstretch]{setspace}
+\usepackage{enumerate}
+\usepackage{mathtools} %underbraces
+\usepackage{imakeidx}%for indexes
+\makeindex%for indexes
+\setlength{\parindent}{4pt} % no indents
+\setlength{\parskip}{4pt}
+\setlength{\parsep}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+\usepackage{float}  % to add "photo" titled figures
+\usepackage{hyperref}	% Must be placed as last package
+
+\floatstyle{plain}  % other options, ruled, boxed
+\newfloat{photo}{thp}{lop}
+\floatname{photo}{Photo}
+
+\setlength{\columnsep}{1cm}
+\setstretch{1.5} % this removes excessive space between equations
+
+\newcommand\myfigure[6]{%
+  \ifdim#2>.8\linewidth
+    {%
+      \centering
+      \includegraphics[width=#3]{#4}%
+      \captionof{#5}{#6}%
+      \label{#4}
+    }%
+  \else
+  \begin{wrapfigure}{#1}{#2}
+    \includegraphics[width=#3]{#4}
+    \captionof{#5}{#6}
+    \label{#4}
+  \end{wrapfigure}
+  \fi
+}
+\newcommand\BrText[2]{%
+  \vspace{1 em}  
+  \par\smallskip
+   \noindent\makebox[\textwidth][l]{$\left.\nulldelimiterspace=0pt
+    \begin{minipage}{.60\textwidth}
+    \textit{"#2"}
+    \end{minipage} \vspace{1 mm} \right\}
+	\vspace{3 mm}\begin{minipage}{.30\textwidth}
+	#1
+	\end{minipage}  
+  $}\par\smallskip
+  \vspace{1 em}
+} 
+
+\newenvironment{entry}{
+\newcommand{\heading}[1]{~\subsubsection{##1}
+}
+\newcommand{\date}[1]{##1\\}
+\renewcommand{\quote}[1]{\textit{"##1"}\\}
+\newcommand{\source}[1]{\newcommand{\newCommandName}{##1} \textsc{##1}\\}
+\newcommand{\thought}[1]{\textbf{Thought:} \\
+ {##1}\\}
+ \newcommand{\question}[1]{##1 \\}	%hopeully in future, use bibtex and get a page setup that lists all of my questions.  Or make a new float and have all the questions show up in a table.  mbox for floating question marks
+\newcommand{\background}[1]{\textbf{Background:} \\ 
+##1 \\}
+\newcommand{\keyword}[1]{\index{##1!\newCommandName{}}}
+\newcommand{\memory}[2]{\textbf{Memory:} \\
+{##1} \\
+{##2} \\}
+\begin{flushleft} 
+}
+{\end{flushleft}
+
+} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BEGIN DOCUMENT
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TITLE PAGE
+\begin{titlepage}
+\title{\hrule \vspace{1 em}
+\Huge Large Plates\\
+\Large Collection of Sacred Information\\
+\vspace{1 em}
+\hrule}
+\author{Jason Porter}
+\date{Last Updated \today}
+\maketitle
+\thispagestyle{empty}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BEGIN Passages
+
+\pagenumbering{arabic}
+\begin{center}
+\Huge Large Plates
+\end{center}
+
+%\begin{multicols*}{2}
+
+%% NonReligious Quotes %%
+\input{NonReligiousQuotes}
+%% Metaphors and Analogies %%
+\input{Metaphors}
+%% Book of Mormon %%
+\input{BookofMormon}
+%% Old Testament %%
+\input{OT}
+%% New Testament %%
+\input{NT}
+%% Mission Brazil %%
+\input{Mission_Brazil_Londrina}
+
+%\end{multicols*}
+
+\pagenumbering{Roman}
+\printindex
+\end{document}
