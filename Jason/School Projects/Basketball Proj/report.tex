@@ -1,0 +1,134 @@
+\documentclass[A4]{article}
+
+% --- Packages --- %
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{blindtext}		% Auto-fill with bogus text
+\usepackage{graphicx,calc}	% allows includegraphics
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{wrapfig}	% allows useage of wrapfigure environment
+\usepackage{amsmath}	% for math environment and fractions
+\usepackage{multicol}	% creates multiple columns
+\usepackage{kantlipsum}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{amssymb}	
+\usepackage{ragged2e}	%\justify
+\usepackage[nodisplayskipstretch]{setspace}
+\usepackage{enumerate}
+\usepackage{mathtools} 	%underbraces
+\usepackage{imakeidx}	%for indexes
+\usepackage[compact]{titlesec} %spacing sections and subsections
+\usepackage[framemethod=TikZ]{mdframed} %textbox with border and shading
+\usepackage{float}  % to add "photo" titled figures
+\usepackage{hyperref}	% Must be placed as last package
+
+% --- Style --- %
+\mdfdefinestyle{MyFrame}{%
+    linecolor=NavyBlue,
+    outerlinewidth=2pt,
+    roundcorner=10pt,
+    innertopmargin=\baselineskip,
+    innerbottommargin=\baselineskip,
+    innerrightmargin=20pt,
+    innerleftmargin=20pt,
+    backgroundcolor=LightBlue}
+% --- New Commands --- %
+\newcommand\myfigure[6]{%  
+  %\textcolor{NavyBlue}{\rule[5mm]{#2}{3mm}}  
+  
+  \ifdim#2>.8\linewidth    
+    {%
+	  \centering
+      \includegraphics[width=#3]{#4}%
+      \captionof{#5}{#6}%
+      %\label{#4}
+    }%
+  \else
+  \begin{wrapfigure}{#1}{#2}
+    \includegraphics[width=#3]{#4}
+    \caption{#5}
+    %\label{#4}
+  \end{wrapfigure}
+  \fi
+  
+  %\textcolor{NavyBlue}{\rule[5mm]{#2}{3mm}}
+}
+
+\newcommand{\highlight}[1]{%
+ \par\noindent
+ \colorbox{LightBlue}{%
+ \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+ #1
+ }%
+ }}
+ 
+ \newtcolorbox{mybox}{colback=LightBlue,
+boxrule=0pt,arc=0pt,boxsep=2pt,left=2pt,right=2pt,leftrule=1pt}
+
+% --- Redefined Commands --- %
+
+
+% --- New Environments --- %
+
+% --- Define Floats --- %
+\floatstyle{plain}  % other options, ruled, boxed
+\newfloat{photo}{thp}{lop}
+\floatname{photo}{Photo}
+
+% --- Format Settings --- %
+\definecolor{shadecolor}{named}{LightBlue}
+\setlength{\parindent}{4pt} % no indents
+\setlength{\parskip}{4pt}
+\setlength{\parsep}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\setlength{\columnsep}{1cm}
+\setstretch{1.5} % this removes excessive space between equations
+
+
+% --- Additional Preamble Material --- %
+\makeindex%for indexes
+ 
+%%%%%%%%%%%%%%
+%% DOCUMENT %%
+%%%%%%%%%%%%%%
+\begin{document}
+	\begin{center}
+	\Huge The application of optimization techniques to explore free throw performance
+	
+	\normalsize Jon Mortensen, Jason Porter\\
+	\textcolor{NavyBlue}
+	{\hrule}
+\end{center}	
+	
+	\pagenumbering{arabic}	
+	
+	% --- ABSTRACT --- %
+	\input{abstract}
+
+	% --- Set Two Columns --- %
+	\newpage
+	
+	
+	% --- Body --- %
+	\input{introduction}
+	\input{methodology}
+	\input{results}
+	\input{conclusion}
+	\input{discussion}
+	
+\myfigure{L}{\linewidth}{\linewidth}{3D_arm}{figure}{A Picture}
+
+
+
+
+	
+\end{document} 

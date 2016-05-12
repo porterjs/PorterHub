@@ -1,0 +1,63 @@
+%methodology
+\begin{center}
+\Large Methodology
+
+\end{center}
+\begin{multicols}{2}
+
+This study was conducted in two parts. The first part was a kinematic equation for the basketball focused on optimizing for reliability.  Before taking into account the motion of the arm required by the athlete, this problem was designed to solve the exit trajectory of the ball based on a feasible release zone.  The feasible release zone was considered to be within the arm reach of the player standing at full height.  The data collected from this analysis was optimized through a genetic algorithm for maximum reliability.  The once the trajectory of the ball satisfied the reliability conditions, the velocity and location of the ball upon release were used to create an optimal arm motion to most efficiently get the basketball to the initially position and velocity calculated from the first part.  Efficiency was determined to be the motion that had minimal loss in directional momentum of the ball.  The process is illustrated in Figure \ref{process}.
+
+\myfigure{L}{\linewidth}{\linewidth}{process}{figure}{The optimization process was divided into two: a kinematic reliability solver using a Genetic Algorithm and an optimal arm motion solver using $fmincon$ from MatLab.}
+ 
+\subsection*{Reliable Projectile Path}
+Projectile displacement equations were used to determine the most reliable initial velocity and position of the ball that resulted in a goal.  In order to prevent irregular shooting results, the vertical velocity of the ball was constrained to a value that would render the ball higher than the rim (10 feet) before reaching the goal.  To verify if the ball successfully made a goal, the coordinates were evaluated when it passes below the rim.  The rim had a threshold of 18” diameter in which the goal would be considered valid.  
+
+The function incorporated a Monte Carlo analysis in order to simulate human error. This analysis determined how close the shot was to being successful more than 100 times.  During this process, the input variables were treated as a normal distribution. The mean distance from making a shot was then used for the objective function to determine the reliability.  The normal distributions for the input variables assumed standard deviations of 1 ft/sec for initial velocity and 1 inch for initial position.
+
+To avoid locating local minimums, the initial velocity was minimized as well.  This constraint realized the limitations of human control correlating directly with intensified speed.  To account for this, a penalty equal to 5\% of the norm of the initial velocity was added to the objective function.
+
+This problem was solved using the genetic algorithm function in MatLab known as ga. The genetic algorithm was selected to eliminate local minima and locate the global solution. Bounds were set for the initial position using the proportionality factors of an average height NBA player in 2015. These bounds ensured that the ball could not be released  from anywhere that an average NBA player could not reach. The upper bound of the initial velocity was also supplied at 50 ft/sec to prevent the ball from reaching unrealistic heights.  No other constraints were needed to satisfy the solution of this part of the study.  
+
+\subsection*{Optimal Arm Motion}
+A 3-dimensional model of the basic arm components was developed in order to provide a realistic representation of the arm's movement.  The model of the arm was designed based on the proportions of an average sized NBA player in 2015, staging the height to be 6'9".  The model was composed of skeletal and muscular structures which mimicked the time step response of an arm put into motion.  The model can be seen in Figure \ref{model}. For simplification, the scope of the arm was limited to the upper arm and forearm.  Acting as joints, the shoulder, elbow, and hand were connected by skeletal links.  The muscle groups responsible for the arm motion were attached at the tendon locations relative to each joint.  Three muscles represented the deltoids which allowed for the pivoting motion of the shoulder joint.  The triceps and biceps simulated the hinged joint motion of the elbow.  Each arm member acted as a cantilever beam with the mass of each member loaded at the center of mass.  This static load was combined with the torque loads resulting from the arm motions.  The arm model was used to stage an n-frame motion of the arm performing a free throw within a sub-second time-frame.
+
+The objective function was formulated as 
+
+\begin{minipage}[t]{.2\linewidth}
+\begin{flushright}
+min\\
+~\\
+s.t.\\
+\end{flushright}
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{.7\linewidth}
+\begin{flushleft}
+$J = \sum_{i = 1}^n\left\vert \mu_{i+1} -\mu_i \right\vert$, $i = 1,2,...,n$\\
+$c_1 = 0^o \leq \Psi_{elbow} \leq 170^o$\\
+$c_2 = -110^o \leq \theta_{shoulder} \leq 20^o$ 
+
+\end{flushleft}
+\end{minipage}
+\vspace{1em}
+\noindent
+where momentum of the hand $\mu$ at each frame $i$ is a function of the Cartesian coordinates of the hand x, y, and z. $\mu_n$ was derived by the results from part 1.  The angle constraints were placed to prevent hyper-extension of the arm (see Figure \ref{constraints}).  This optimization problem was solved using the $fmincon$ function in MatLab.  
+
+\myfigure{l}{\linewidth}{\linewidth}{constraints}{figure}{The physical limitations of the arm preventing a solution resulting in hyper-extension of the arm.  $\Psi$ is the angle of the elbow and $\theta$ is of the shoulder.}
+
+To further investigate the arm, rotational kinetic energy was determined based on the arm in order to analyze muscular activity. To determine muscle activity, each muscle was analyzed at each frame.  To determine the distributed loads on each of the muscles, they first had to be determined as active or inactive.  Activity was based on whether the muscle was actively contracting.  A simple approach for determining this was to check if a muscle has expanded or contracted at each frame.  The activity of the muscles characterized the movement.  
+
+Because the input was given as coordinates per frame, they were used to determine the angular velocity of each arm member:
+\[\omega = \dfrac{d\theta}{dt}\]
+The inertia for each arm member was characterized by the following
+\[I = \dfrac{1}{3}mL^2\]
+where $m$ is the mass and $L$ is the length of the arm member. These two equations were then used to solve for the rotational kinetic energy found at each joint.
+\[T = \dfrac{1}{2}I\omega^2\]
+Combined with the statically loaded energy, the kinetic energy was then distributed into the muscles responsible for the motion of the related joint. This process enabled a clear indication of how efficient a basketball motion is.  
+\end{multicols}
+
+\myfigure{l}{\linewidth}{\linewidth}{model}{figure}{The 3D model of the arm used for simulating arm motion.  It has a skeletal structure (blue) and muscular structure (red:active, black:inactive).}
+
+\begin{multicols}{2}
+\end{multicols}

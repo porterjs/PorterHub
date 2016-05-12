@@ -1,0 +1,36 @@
+% Results
+
+\begin{center}
+\Large Results
+\end{center}
+\hrule
+
+\begin{multicols}{2}
+\subsection*{Kinetic Reliability Solution}
+When the basketball motion was solved without attempting to minimize velocity, the result produced a shot that portrayed an underhand “granny shot.” This type of shot has not typically been performed in professional basketball. This result suggested that the optimal solution given only projectile motion would be an underhanded shot. This result can be seen in Figure \ref{grannyshot} which portrays the path of the ball using blue circles and the feasible release zone within the red circle representing the maximum distance the player could reach. The vertical red line represents a basketball player, with the top of the line indicating the overall height of the player.
+
+By minimizing the initial velocity using a penalty of 5\% of the norm included into the objective function, the result transformed into a traditional basketball shot (see Figure \ref{traditional}). A current basketball shot seen in the NBA is demonstrated by releasing the ball as far as the arm can reach in an upward angle above the head. According to Tran, the best way to shoot a basketball is with a release that has a 52 degree angle from the horizontal. The solution solved for by  MATLAB had a release angle of 51.99 degrees. The perfect height of this study was determined to be 12.4 ft, with a peak height of 12.4ft.
+
+\myfigure{L}{\linewidth}{\linewidth}{grannyshot}{figure}{This is the optimal shot without penalizing the release velocity. The red circle represents the reach of the arm of the player as a feasible zone for ball release.  The blue balls show the path the ball takes to make it to the goal.}
+
+\myfigure{L}{\linewidth}{\linewidth}{traditional}{figure}{This is the optimal shot including the penalty on the release velocity.}
+
+\subsection*{Arm Path Optimization}
+Using the release point and velocity of the ball solved in the previous part, the solution resulted in a motion very similar to that seen in traditional basketball throw. The entire motion was 0.5 seconds. It can be seen in Figure \ref{armopt}. The full motion was separated by frame in Figure \ref{optmotion}.  At the same time rate, the solution discovered for the "grannyshot" produced an underhand throw seen in Figure \ref{grannyopt}.
+
+\begin{center}
+\textbf{The Optimal Arm Motion}
+\end{center}
+\myfigure{l}{\linewidth}{\linewidth}{armopt}{figure}{The optimal arm path determined by the most reliable ball trajectory.}
+
+\begin{center}
+\textbf{The Granny Shot Solution}
+\end{center}
+\myfigure{l}{\linewidth}{\linewidth}{grannyarm}{figure}{The optimal arm path determined without the initial velocity penalty.}
+
+To evaluate performance of the motion, the muscle activity was compared with the granny-shot solution.  Each muscle was evaluated for how much it was being used.  The results are seen in Figure \ref{muscleopt} and \ref{comparison}.  The optimal shot initially used the biceps and deltoids in order to lift the ball upward allowing for the triceps to thrust the ball in the correct direction while minimizing variation of the ball's path through the frames.  The grannyshot however, required an excessive acceleration in order to match its required exit position and velocity.  The values seen in the graphs were normalized by the most used muscle group.  Though the triceps in the traditional shot seem to require a lot of power, the force is separated into three muscles making it not as extreme as depicted.  Because of this, the grannyshot actually requires much more energy and would likely result in fatigue.       
+
+  
+\end{multicols}
+
+\myfigure{l}{\linewidth}{\linewidth}{optmotion}{figure}{The individual frames of the optimal arm path.}

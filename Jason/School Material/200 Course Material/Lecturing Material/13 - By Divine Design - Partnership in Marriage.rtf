@@ -1,0 +1,934 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f383\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f384\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f386\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f387\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f388\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f389\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f390\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f391\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f393\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\f394\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}
+{\f396\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f397\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f398\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f399\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f400\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f401\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f403\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}{\f404\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f406\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}{\f407\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}{\f408\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f409\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f410\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}{\f411\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}
+{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;
+\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red31\green78\blue121;\red0\green176\blue80;}
+{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}
+{\s1\ql \fi-270\li270\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin270\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \slink15 \sqformat \spriority9 heading 1;}{\s2\ql \fi-270\li810\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin810\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink16 \sqformat heading 2;}{\s3\ql \fi-270\li1350\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin1350\itap0 \rtlch\fcs1 
+\af0\afs30\alang1025 \ltrch\fcs0 \fs30\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink17 \sqformat heading 3;}{
+\s4\ql \fi-270\li1890\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel3\rin0\lin1890\itap0 \rtlch\fcs1 \af0\afs27\alang1025 \ltrch\fcs0 \fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \slink18 \sqformat heading 4;}{\s5\ql \fi-270\li2430\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel4\rin0\lin2430\itap0 \rtlch\fcs1 \af0\afs27\alang1025 \ltrch\fcs0 
+\fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink19 \sqformat heading 5;}{\s6\ql \fi-270\li2970\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel5\rin0\lin2970\itap0 \rtlch\fcs1 
+\af0\afs27\alang1025 \ltrch\fcs0 \fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink20 \sqformat heading 6;}{
+\s7\ql \fi-270\li3510\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel6\rin0\lin3510\itap0 \rtlch\fcs1 \af0\afs27\alang1025 \ltrch\fcs0 \fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \slink21 \sqformat heading 7;}{\s8\ql \fi-270\li4050\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel7\rin0\lin4050\itap0 \rtlch\fcs1 \af0\afs27\alang1025 \ltrch\fcs0 
+\fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink22 \sqformat heading 8;}{\s9\ql \fi-270\li4590\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel8\rin0\lin4590\itap0 \rtlch\fcs1 
+\af0\afs27\alang1025 \ltrch\fcs0 \fs27\lang1033\langfe1033\kerning24\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink23 \sqformat heading 9;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 
+Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\snext11 \ssemihidden \sunhideused Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \ab\af31503\afs32 \ltrch\fcs0 \b\fs32\kerning32\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink1 \slocked \spriority9 Heading 1 Char;}{\*\cs16 \additive \rtlch\fcs1 
+\ab\ai\af31503\afs28 \ltrch\fcs0 \b\i\fs28\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink2 \slocked \ssemihidden \spriority9 Heading 2 Char;}{\*\cs17 \additive \rtlch\fcs1 \ab\af31503\afs26 \ltrch\fcs0 
+\b\fs26\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink3 \slocked \ssemihidden \spriority9 Heading 3 Char;}{\*\cs18 \additive \rtlch\fcs1 \ab\af0\afs28 \ltrch\fcs0 \b\fs28 \sbasedon10 \slink4 \slocked \ssemihidden \spriority9 Heading 4 Char;}{\*
+\cs19 \additive \rtlch\fcs1 \ab\ai\af0\afs26 \ltrch\fcs0 \b\i\fs26 \sbasedon10 \slink5 \slocked \ssemihidden \spriority9 Heading 5 Char;}{\*\cs20 \additive \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b \sbasedon10 \slink6 \slocked \ssemihidden \spriority9 
+Heading 6 Char;}{\*\cs21 \additive \rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24 \sbasedon10 \slink7 \slocked \ssemihidden \spriority9 Heading 7 Char;}{\*\cs22 \additive \rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\fs24 
+\sbasedon10 \slink8 \slocked \ssemihidden \spriority9 Heading 8 Char;}{\*\cs23 \additive \rtlch\fcs1 \af31503 \ltrch\fcs0 \loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink9 \slocked \ssemihidden \spriority9 Heading 9 Char;}}{\*\listtable
+{\list\listtemplateid-1457231388\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}{\list\listtemplateid1555356870\listhybrid
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\lin6120 }{\listname ;}\listid25834416}
+{\list\listtemplateid-1173470276\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li360\lin360 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\lin6120 }
+{\listname ;}\listid1144392669}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext
+\'01\u-3880 ?;}{\levelnumbers;}\f10\fs64\fbias0 }}\ls1}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext
+\'01\'95;}{\levelnumbers;}\f1\fs64\fbias0 }}\ls2}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext
+\'01\u-3947 ?;}{\levelnumbers;}\f10\fs44\fbias0 }}\ls3}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext
+\'01\u-3947 ?;}{\levelnumbers;}\f10\fs36\fbias0 }}\ls4}{\listoverride\listid25834416\listoverridecount0\ls5}{\listoverride\listid1144392669\listoverridecount0\ls6}}{\*\rsidtbl \rsid15825353\rsid16065549}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0
+\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Peer Reviewer}{\creatim\yr2015\mo11\dy20\hr17\min32}{\revtim\yr2015\mo11\dy20\hr17\min34}{\version2}{\edmins2}{\nofpages14}{\nofwords6303}
+{\nofchars35933}{\nofcharsws42152}{\vern57437}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale120\rsidroot16065549 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 
+\fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 By Divine Design \hich\f0 \endash \loch\f0 
+ Partnership in Marriage
+\par }\pard \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Where are we going?
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Know}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls5\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+How husbands and wives can develop an equal partnership by developing an appropriate interdependent relationship
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The principles and practices of couple resiliency in the face of problems and adversity
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The key principles and practices of involving God and the gospel in their marriage and family
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The prophetically stated priorities regarding God, spouse and family\hich\af0\dbch\af31505\loch\f0  
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The principles and practices which would help us apply the above priorities in daily life
+\par }\pard \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Feel}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\insrsid15825353\charrsid16065549 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+A desire to treat your husband or wife as an equal partner
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+A desire to align our priorities with the principles and practices the prophets have taught\hich\af0\dbch\af31505\loch\f0  regarding family
+\par }\pard \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Do}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\insrsid15825353\charrsid16065549 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Examine our priorities and seek to align them with God\hich\f0 \rquote \loch\f0 s will 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The Unique Nature of Men and Women
+\par }\pard \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The Truest Greatness
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 President Joseph F Smith reminded us: "to do well those things which God ordained to be the common lot of all man\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+-kind, is the truest greatness. To be a successful father or a successful mother is greater than to be a successful general or a successful statesman. One is universal and eternal greatness, the other is ephemeral.\'94
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The Ultimate Priorities
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The ultimate La\hich\af0\dbch\af31505\loch\f0 tter-day Saint priorities are twofold: First, we seek to understand }{\rtlch\fcs1 \ab\ai\af0 \ltrch\fcs0 
+\b\i\ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 our relationship to God the Eternal Father and His Son, Jesus Christ}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+, and to secure that relationship by obtaining their saving ordinances and by keeping our personal covenants. Second, we\hich\af0\dbch\af31505\loch\f0  seek to understand }{\rtlch\fcs1 \ab\ai\af0 \ltrch\fcs0 \b\i\ul\cf17\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 our relationship to our family members }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+and to secure those relationships by the ordinances of the temple and by keeping the covenants we make in that holy place\'85\loch\f0  }{\rtlch\fcs1 \ab\ai\af0 \ltrch\fcs0 \b\i\ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+No combination of science, success, property, pride, prominence, or power \hich\af0\dbch\af31505\loch\f0 can provide these eternal blessings! }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Elder Dallin H. Oaks, Focus and Priorities, Ensign (CR), May 2001)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Key to the plan
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The complementing differences are the very key to the plan of happiness. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Divinely Determined
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+We know so little, brothers and sisters, about the reasons for the division of duties between womanhood and manhood as well as between motherhood and priesthood. These were divinely determined in another time and another place. }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Neal A. Maxwell)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Don\hich\f0 \rquote \loch\f0 t chan\hich\af0\dbch\af31505\loch\f0 ge differences essential to plan of salvation 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 \hich\f0 
+Our eternal perspective sets us against changes that alter those separate duties and privileges of men and women that are essential to accomplish the great plan of happiness.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Elder Dallin H. Oaks)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Don\hich\f0 \rquote \loch\f0 t ch\hich\af0\dbch\af31505\loch\f0 ange differences essential to plan of salvation 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Our eternal perspective sets us against changes that alter those separate duties and privileges of men and women }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf18\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 that are essential to accomplish the great plan of happiness}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 .\'94\loch\f0  }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Elder Dallin H. Oaks)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Cheris\hich\af0\dbch\af31505\loch\f0 h the differences, don\hich\f0 \rquote \loch\f0 t weaken or erase them
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\hich\af0\dbch\af31505\loch\f0 In\hich\af0\dbch\af31505\loch\f0 
+ the home and in the Church, sisters should be esteemed for their very nature.  Be careful lest you unknowingly foster influences and activities which tend to erase the masculine and feminine differences nat\hich\af0\dbch\af31505\loch\f0 
+ure has established.  A man, a father, can do much of what is usually assumed to be a women\hich\f0 \rquote \loch\f0 s work.  In turn, a wife and a mother can do much\hich\f0 \endash \loch\f0  and in time of need, most things\hich\f0 \endash \loch\f0 
+usually considered the responsibility of the man, without jeopardizing their di\hich\af0\dbch\af31505\loch\f0 s\hich\af0\dbch\af31505\loch\f0 
+tinct roles.  Even so, leaders, and especially parents, should recognize that there is a distinct masculine nature and a distinct feminine nature essential to the foundation of the home and the family.  Whatever disturbs or weakens or tends to erase that 
+\hich\af0\dbch\af31505\loch\f0 d\hich\af0\dbch\af31505\loch\f0 \hich\f0 ifference erodes the family and reduces the probability of happiness for all concerned\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer (}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 General Conference,\~}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 April 1998, 73)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Equal but not the same
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Men and women joined together in marriage need to work together as a full partnership. Howev\hich\af0\dbch\af31505\loch\f0 
+er, a full and equal partnership between men and women does not imply the roles played by the two sexes are the same in God\hich\f0 \rquote \loch\f0 
+s grand design for His children. As the proclamation clearly states, men and women, though spiritually equal, are entrusted with di\hich\af0\dbch\af31505\loch\f0 f\hich\af0\dbch\af31505\loch\f0 
+ferent but equally significant roles. These roles complement each other. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Russell M. Ballard, Ensign, March 2006)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 THE FAMILY: A PROCLAMATION TO THE WORLD
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 By divine design, 
+\par \hich\af0\dbch\af31505\loch\f0 Fathers are to preside over their families in love and righteousness and are responsible to provide the necessities of life and protection for their families. 
+\par \hich\af0\dbch\af31505\loch\f0 Mothers are primarily responsible for the nurture of their children. 
+\par \hich\af0\dbch\af31505\loch\f0 In these sacred responsibi\hich\af0\dbch\af31505\loch\f0 lities, fathers and mothers are obligated to help one another as equal partners. 
+\par \hich\af0\dbch\af31505\loch\f0 Disability, death, or other circumstances may necessitate individual adaptation. Extended families should lend support when needed.
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Gender Differences
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard\plain \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Heavenly Father and \hich\af0\dbch\af31505\loch\f0 \hich\f0 Heavenly Mother are both perfected beings\'85\loch\f0 
+yet one is a perfected male and the other is a perfected female \hich\f0 \endash \loch\f0  Perfect does not mean sameness.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Ultimate Perfection is dependent on the presence of both eternal feminine and eternal masculine
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Happiness and success in this life (married or unmarried) is based on living true to our eternal masculine or eternal feminine nature
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+There are also differences which are based in culture / tradition / biology which are not eternal and which must be app\hich\af0\dbch\af31505\loch\f0 roach with wisdom and charity
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+When these differences are in harmony with eternal principles and approached with charity \hich\f0 \endash \loch\f0  they lead to wholeness. If they are contrary to eternal principles they should be overcome 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Gender Differences II
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard\plain \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Other than God\hich\af0\dbch\af31505\loch\f0  himself, nothing should take a higher priority in our lives than our family
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+There is no one perfect way to take care of our families \hich\f0 \endash \loch\f0  each persons circumstances are different and they will have to receive the needed inspiration to do it best.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The p\hich\af0\dbch\af31505\loch\f0 
+rophets continue to teach that men and women have unique (though not mutually exclusive) responsibilities meant to lead to our greatest happiness and the success of our families
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The differences are additive, not prohibitive***
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Satan is actively tryin
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 g to \'93\loch\f0 \hich\f0 Demean the importance of the roles of men and women\'94\loch\f0  and inasmuch as we give in, it puts our happiness and our families success in danger
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Anything which makes a man less likely and able to preside, provide, and protect and a women less likely and \hich\af0\dbch\af31505\loch\f0 able to nurture is a threat the happiness and success of ourselves and our families
+\par }\pard \ltrpar\s2\ql \fi-720\li720\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Teach the Rule
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 When we speak plainly of divorce, abuse, gender identity, contraception, abortion, parental neglect, we are thought by some to be way \hich\af0\dbch\af31505\loch\f0 
+out of touch or to be uncaring. Some ask if we know how many we hurt when we speak plainly. Do we know of marriages in trouble, of the many who remain single, of single-parent families, of couples unable to have children, of parents with wayward children,
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 or of those confused about gender? Do we know? Do we care?
+\par \hich\af0\dbch\af31505\loch\f0 Those who ask have no idea how much we care; you know little of the sleepless nights, of the endless hours of work, of prayer, of study, of travel\hich\f0 \emdash \loch\f0 all for the happiness and redemption of mankind.
+
+\par \hich\af0\dbch\af31505\loch\f0 B\hich\af0\dbch\af31505\loch\f0 ecause we }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 do}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0  know and because we }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 do}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0  care, we must teach the rules of happiness without dilution, apology, or avoidance. That is our calling.
+\par \hich\af0\dbch\af31505\loch\f0 I once learned a valuable lesson from a mission Relief \hich\af0\dbch\af31505\loch\f0 \hich\f0 Society president. In a conference, she announced some tightening up of procedures. A sister stood up and defiantly said, \'93
+\loch\f0 Those rules can\hich\f0 \rquote \loch\f0 t apply to us! You don\hich\f0 \rquote \loch\f0 \hich\f0 t understand us! We are an exception.\'94
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 That wonderful Relief Society president replied, \'93\loch\f0 Dear \hich\af0\dbch\af31505\loch\f0 sister, we\hich\f0 \rquote \loch\f0 
+d like not to take care of the exception first. We will establish the rule first, and then we\hich\f0 \rquote \loch\f0 \hich\f0 ll see to the exception.\'94\loch\f0  Many times I have borrowed from her wisdom, grateful for what she taught me. }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer, General Conference, April 1994.\hich\af0\dbch\af31505\loch\f0 )
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Seek the Ideal
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Throughout your life on earth, seek diligently to fulfill the fundamental purposes of this life }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 
+\i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 through the ideal family.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+ While you may not have yet reached that ideal, do all you can through obedience and faith in the Lord to consistentl\hich\af0\dbch\af31505\loch\f0 
+y draw as close to it as you are able. Let nothing dissuade you from that objective. If it requires fundamental changes in your personal life, make them. When you have the required age and maturity, obtain all of the ordinances of the temple you can recei
+\hich\af0\dbch\af31505\loch\f0 v\hich\af0\dbch\af31505\loch\f0 
+e. If for the present, that does not include sealing in the temple to a righteous companion, live for it. Pray for it. Exercise faith that you will obtain it. Never do anything that would make you unworthy of it. If you have lost the vision of eternal mar
+\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 iage, rekindle it. If your dream requires patience, give it.
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 Elder Richard G. Scott, General Conference, April 2001
+\par 
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Don\hich\f0 \rquote \loch\f0 t change differences essential to plan of salvation 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Our eternal perspective sets us against changes that alter those separate duti\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+es and privileges of men and women that are essential to accomplish the great plan of happiness.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Elder Dallin H. Oaks)
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Men
+\par }\pard \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Protect
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Now, fathers, I would remind you of the sacred nature of your calling. You have the power of the priesthood directly from t\hich\af0\dbch\af31505\loch\f0 
+he Lord to protect your home. There will be times when all that stands as a shield between your family and the adversary\hich\f0 \rquote \loch\f0 
+s mischief will be that power. You will receive direction from the Lord by way of the gift of the Holy Ghost. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer, GC, Apri
+\hich\af0\dbch\af31505\loch\f0 l 2010)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Protect II
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard\plain \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Spiritually
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Physically
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Emotionally
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Socially
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside I
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 President Gordon B. Hinckley said, \'93\loch\f0 Marriage, in its truest sense, is a partnership of equals, with neither exercising dominion over the other,
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  but, rather, with each encouraging and assisting the other in whatever responsibilities and aspirations he or she might have.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 (Gordon B. Hinckley, \'93\loch\f0 \hich\f0 I Believe,\'94\loch\f0  }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Ensign}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 , August 1992, 6.) 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside I
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 In the Church there is a distinct line of authority. We serve where called by those who preside over us.
+\par \hich\af0\dbch\af31505\loch\f0 In the home it is a partnership with husband and wife equally yoked together, sharing in decisions, always working together. While the husband, the fat\hich\af0\dbch\af31505\loch\f0 
+her, has responsibility to provide worthy and inspired leadership, his wife is neither behind him nor ahead of him but at his side. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Boyd K. Packer, GC - May 1998)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside III
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 My own interpretation of that sentence (Gen. 3:16 \hich\f0 \endash \loch\f0 \hich\f0  he shall \'93\loch\f0 \hich\f0 rule\'94\'85\loch\f0 ) is that t
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 he husband shall have a governing responsibility to provide for, to protect, to strengthen and shield\'85\loch\f0 . }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (Gordon B. Hinckley, October 1991)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Remember, brethren, that in your role as leader in the family, your wife is your companion.  Since the b\hich\af0\dbch\af31505\loch\f0 
+eginning, God has instructed mankind that marriage should unite husband and wife together in unity. Therefore, there is not a president or a vice president in a family. The couple works together eternally for the good of the family. They are united togeth
+\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+r in word, in deed, and in action as they lead, guide, and direct their family unit. They are on equal footing. They plan and organize the affairs of the family jointly and unanimously as they move forward.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (L. Tom Perry, Ensign, May 2004, 69)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 
+Remember, brethren, that in your role as leader in the family, your wife is your companion.  Since the beginning, God has instructed mankind that marriage should unite husband and wife together in unity. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf18\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Therefore, there is not a president or a vice presi\hich\af0\dbch\af31505\loch\f0 
+dent in a family. The couple works together eternally for the good of the family. They are united together in word, in deed, and in action as they lead, guide, and direct their family unit. They are on equal footing. They plan and organize the affairs of 
+\hich\af0\dbch\af31505\loch\f0 t\hich\af0\dbch\af31505\loch\f0 \hich\f0 he family jointly and unanimously as they move forward.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(L. Tom Perry, Ensign, May 2004, 69)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside III
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Immediately after setting me apart as a stake president, Elder Boyd K. Packer sat me down to give me a few points of advice on how to succeed in my n
+\hich\af0\dbch\af31505\loch\f0 ew calling. I was fully prepared to be receptive to his counsel, but I couldn\hich\f0 \rquote \loch\f0 \hich\f0 t help being taken aback by his first admonition.\'94\loch\f0  Now, President, I don\hich\f0 \rquote \loch\f0 
+\hich\f0 t want you treating your wife like you do the stake.\'94\loch\f0 \hich\f0  I was mildly offended. I said, \'93\loch\f0 I wasn\hich\f0 \rquote \loch\f0 t planning \hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+n treating either the stake or my wife badly.\'94\loch\f0 \hich\f0  \'93\loch\f0 \hich\f0 I know,\'94\loch\f0 \hich\f0  he continued, \'93\loch\f0 
+but you need to treat them well, differently. In the stake when a decision is to be made, you will seek the opinion of your counselors and other concerned individuals. Then you will p\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 
+ayerfully reach a decision on the matter, and they will all rally round and support you because you are the president and you have the mantle of authority. In your family when there is a decision to be made that affects everyone, you and your wife togethe
+\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ will seek whatever counsel you might need, and together you will prayerfully come to a unified decision. If you ever pull priesthood rank on her you will have failed in your leadership.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Carlfred Broderick:}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 One Flesh, One Heart: Putting Celestial Love into
+\hich\af0\dbch\af31505\loch\f0  Your Temple Marriage, pp. 31-32.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside III
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\hich\af0\dbch\af31505\loch\f0 
+Immediately after setting me apart as a stake president, Elder Boyd K. Packer sat me down to give me a few points of advice on how to succeed in my new calling. I was fully prepared to be receptive to his counsel, but I couldn\hich\f0 \rquote \loch\f0 
+t help being taken aback by \hich\af0\dbch\af31505\loch\f0 h\hich\af0\dbch\af31505\loch\f0 \hich\f0 is first admonition.\'94\loch\f0  Now, President, I don\hich\f0 \rquote \loch\f0 \hich\f0 t want you treating your wife like you do the stake.\'94\loch\f0 
+\hich\f0  I was mildly offended. I said, \'93\loch\f0 I wasn\hich\f0 \rquote \loch\f0 \hich\f0 t planning on treating either the stake or my wife badly.\'94\loch\f0 \hich\f0  \'93\loch\f0 \hich\f0 I know,\'94\loch\f0 \hich\f0  he continued, \'93\loch\f0 
+but you need to treat them well, d\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 
+fferently. In the stake when a decision is to be made, you will seek the opinion of your counselors and other concerned individuals. Then you will prayerfully reach a decision on the matter, and they will all rally round and support you because you are th
+\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0  president and you have the mantle of authority. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf18\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+In your family when there is a decision to be made that affects everyone, you and your wife together will seek whatever counsel you might need, and together you will prayerfully come to a unified decision. I\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+f you ever pull priesthood rank on her you will have failed in your leadership.\'94}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 Carlfred Broderick:}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 One Flesh, One Heart: Putting Celestial Love into Your Temple Marriage, pp. 31-32.}{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside V
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 These roles complement each other. Men are given stewardship ov\hich\af0\dbch\af31505\loch\f0 
+er the sacred ordinances of the priesthood. To women, God gives stewardship over bestowing and nurturing mortal life, including providing physical bodies for God\hich\f0 \rquote \loch\f0 
+s spirit children and guiding those children toward a knowledge of gospel truths. These stewa\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 
+dships, equally sacred and important, do not involve any false ideas about domination or subordination. Each stewardship is essential for the spiritual progression of all family members, parents and children alike. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (M. Russel Ballard, Ensign, March 2006)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside VI
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Fatherhood is leadership, the most important kind of leadership.  It has always been so; it always will be so.  Father, with the assistance and counsel and encouragement of your eternal companion, you preside in the home.  It is not a matter of 
+\hich\af0\dbch\af31505\loch\f0 
+whether you are most worthy or best qualified, but is a matter of law and appointment.  You preside at the meal table, at family prayer.  You preside at family home evening; and as guided by the Spirit of the Lord, you see that your children are taught co
+\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 rect principles.  It is your place to give direction relating to all of family life. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Fathers consider your ways, The Quorum of Twelve Apostles)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside IV
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Fathers are to preside in the home, but presiding does not mean a man is to rule or exercise unright\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+eous dominion over his wife or children. The Savior taught His Apostles that the rulers among the Gentiles exercised authority over their subjects. \'93\loch\f0 \hich\f0 But it shall not be so among you,\'94\loch\f0 \hich\f0  He cautioned, \'93\loch\f0 
+but whosoever will be great among you, let him be your m\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 \hich\f0 nister; and whosoever will be chief among you, let him be your servant\'94\loch\f0  (see\~}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Matt. 20:25\hich\f0 \endash \loch\f0 27}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+). Presiding, then, is to love and serve and sacrifice. The Apostle Paul taught, \'93\loch\f0 Husbands, love your wives, even as Christ also loved the church, and gave himself f\hich\af0\dbch\af31505\loch\f0 \hich\f0 or it\'94\loch\f0  (}{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Eph. 5:25}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 ). President Ezra Taft Benson (1899\hich\f0 \endash 
+\loch\f0 \hich\f0 1994) stated: \'93\loch\f0 Brethren, I say to you with all soberness, [}{\rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Jesus Christ}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 ] is the model we must follow as we take the spiritual lead in our families. Particularly is this true in your relationship with you\hich\af0\dbch\af31505\loch\f0 \hich\f0 r wife.\'94}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\super\insrsid15825353\charrsid16065549 \~}{\rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf17\super\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 2}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\super\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0   }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Russell M. Ballard, Strengthening the Family: As Equal Partners, Ensign, October 2005)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside V
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 You must plan your day as guided by the Spirit of the Lord, earnestly seeking your own welfare and the welfare of your family before other cares 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 blind you to these first responsibilities.  As we have been taught by living prophets, \'93\loch\f0 \hich\f0 No other success in the life can compensate for failure in the home.\'94\loch\f0  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (David O McKay in Conference Report Apr. 1964, p 5)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Preside VI
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Immediately after setting me apar\hich\af0\dbch\af31505\loch\f0 
+t as a stake president, Elder Boyd K. Packer sat me down to give me a few points of advice on how to succeed in my new calling...In the stake when a decision is to be made, you will seek the opinion of your counselors and other concerned individuals. Then
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 
+you will prayerfully reach a decision on the matter, and they will all rally round and support you because you are the president and you have the mantle of authority. In your family when there is a decision to be made that affects everyone, you and your w
+\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 fe together will seek whatever counsel you might need, and together you will prayerfully come to a unified decision. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf18\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 If you ever pull priesthood rank on her you will have failed in your leadership.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Carlfred Broderick:}{
+\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 One\hich\af0\dbch\af31505\loch\f0  Flesh, One Heart: Putting Celestial Love into Your Temple Marriage, pp. 31-32.}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Includes Nurturing
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 We know that a father\hich\f0 \rquote \loch\f0 
+s role does not end with presiding, providing, and protecting family members. On a day-to-day basis, fathers can and should help with t\hich\af0\dbch\af31505\loch\f0 
+he essential nurturing and bonding associated with feeding, playing, storytelling, loving, and all the rest of the activities that make up family life. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(M. Russell Ballard, Ensign, March, 2006)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Nurture II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 President Boyd K. Packer taught, \'93\loch\f0 There is no task\hich\af0\dbch\af31505\loch\f0 
+, however menial, connected with the care of babies, the nurturing of children, or with the maintenance of the home that is not [a husband\hich\f0 \rquote \loch\f0 \hich\f0 s] equal obligation.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer, July 1989, 75) 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Key Principles
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard\plain \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Other than God himself, nothing should take\hich\af0\dbch\af31505\loch\f0  a higher priority in our lives than our family
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+There is no one perfect way to take care of our families \hich\f0 \endash \loch\f0  each persons circumstances are different and they will have to receive the needed inspiration to do it best.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The prophets continue to t
+\hich\af0\dbch\af31505\loch\f0 each that men and women have unique (though not mutually exclusive) responsibilities meant to lead to our greatest happiness and the success of our families
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The differences are additive, not prohibitive***
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Satan is actively trying to \'93
+\loch\f0 Demean the impo\hich\af0\dbch\af31505\loch\f0 \hich\f0 rtance of the roles of men and women\'94\loch\f0  and inasmuch as we give in, it puts our happiness and our families success in danger
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \af0 \ltrch\fcs0 \f10\cf17\kerning24\charrsid16065549 \loch\af10\dbch\af31505\hich\f10 \'a7\tab}}\pard \ltrpar
+\s2\ql \fi-360\li360\ri0\nowidctlpar\wrapdefault\faauto\ls6\outlinelevel1\rin0\lin360\itap0\pararsid16065549 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Anything which makes a man less likely and able to preside, provide, and protect and a women less likely and able to nurture is a \hich\af0\dbch\af31505\loch\f0 threat the happiness and success of ourselves and our families
+\par }\pard \ltrpar\s2\ql \fi-720\li720\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Working Separate from the Family
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \~
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Primary provider
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Fathers need to do the best they can to be the primary provider for physical and spiritual support. I state this with no reluctance because the Lord has revealed that this obligation is placed upon husbands. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (James E. Faust, Ensign, 2004.)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Provide I
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 The h\hich\af0\dbch\af31505\loch\f0 
+usband is expected to support his family and only in an emergency should a wife secure outside employment. Her place is in the home, to build the home into a heaven of delight. 
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Numerous divorces can be traced directly to the day when the wife left the ho\hich\af0\dbch\af31505\loch\f0 
+me and went out into the world into employment. Two incomes raise the standard of living beyond its norm. Two spouses working prevent the complete and proper home life, break into the family prayers, create an independence which is not cooperative, causes
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 distortion, limits the family and frustrates the children already born. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (President Kimball)
+
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Provide II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+In a home where there is an able-bodied husband, he is expected to be the breadwinner.  Sometimes we hear of husbands who, because of economic conditions, have lost their jobs and expect their wives to go out of the home and work even though the husband i
+\hich\af0\dbch\af31505\loch\f0 s\hich\af0\dbch\af31505\loch\f0 
+ still capable of providing for his family.  In these cases, we urge the husband to do all in his power to allow his wife to remain in the home caring for the children while he continues to provide for his family the best he can, even though the job he is
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 able to secure may not be ideal and family budgeting will have to be tighter. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Ezra T. Benson)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Provide III
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 You who hold the priesthood have the responsibility, unless disabled, to provide temporal support for your wife and children. No man can shift the bu
+\hich\af0\dbch\af31505\loch\f0 
+rden of responsibility to another, not even to his wife. The Lord has commanded that women and children have claim on their husbands and fathers for their maintenance (see D&C 83; 1 Tim. 5:8). President Ezra Taft Benson has stated that when a husband enco
+\hich\af0\dbch\af31505\loch\f0 u\hich\af0\dbch\af31505\loch\f0 \hich\f0 rages or insists that his wife work out of the home for their convenience, \'93\loch\f0 \hich\f0 not only will the family suffer in such instances, \'85\loch\f0 \hich\f0 
+ but [his] own spiritual growth and progression will be hampered\'94\loch\f0  (Ensign, Nov. 1987, p. 49). We urge you to do all in your pow\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 
+r to allow your wife to remain in the home, caring for the children while you provide for the family the best you can. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Howard W. Hunter, General Conference, Oct. 1994)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Provide IV
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The Lord has said in modern revelation:
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Women have claim on their husbands\hich\af0\dbch\af31505\loch\f0 \hich\f0  for their maintenance, until their husbands are taken. \'85
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 \hich\f0 All children have claim upon their parents for their maintenance until they are of age\'94\loch\f0  (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf17\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 D&C 83:2, 4}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 ).
+\par \hich\af0\dbch\af31505\loch\f0 From the early days of this Church, husbands have been considered the breadwinners of the fami\hich\af0\dbch\af31505\loch\f0 
+ly. I believe that no man can be considered a member in good standing who refuses to work to support his family if he is physically able to do so. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(President Hinckley, General Conference, April 2006)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Come Home!
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Husbands, come home\hich\f0 \emdash \loch\f0 body, spirit, mind, loya\hich\af0\dbch\af31505\loch\f0 lties, interests, and affections\hich\f0 \emdash \loch\f0 
+and love your companion in an holy and unbreakable relationship. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Spencer W. Kimball, Faith Precedes the Miracle, 148.)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Come Home II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 I plead with you, Fathers, come home. Magnify your priesthood calling; bless your familie\hich\af0\dbch\af31505\loch\f0 
+s through this sacred influence, and experience the rewards promised by our Father and God. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (James. E. Faust, Ensign, August, 2004)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Rise Up O Men!
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Brethren\'85\loch\f0 As men of the priesthood, we have an essential role to play in society, at home, and in the Church. \hich\af0\dbch\af31505\loch\f0 
+But we must be men that women can trust, that children can trust, and that God can trust. In the Church and kingdom of God in these latter days, we cannot afford to have boys and men who are drifting. We cannot afford young men who lack self-discipline an
+\hich\af0\dbch\af31505\loch\f0 d\hich\af0\dbch\af31505\loch\f0 
+ live only to be entertained. We cannot afford young adult men who are going nowhere in life, who are not serious about forming families and making a real contribution in this world. We cannot afford husbands and fathers who fail to provide spiritual lead
+\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 rship in the home. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (D. Todd Christofferson, GC, October 2012)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Women
+\par }\pard \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Counsel of President Kimball
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Our beloved prophet Spencer W. Kimball had much to say about the role of mothers in the home and their callings and responsibilities.  I am impressed tonight 
+\hich\af0\dbch\af31505\loch\f0 
+to share with you some of his inspired pronouncements.  I fear that much of his counsel has gone unheeded, and families have suffered because of it.  But I stand this evening as a second witness to the truthfulness of what President Spencer W. Kimball sai
+\hich\af0\dbch\af31505\loch\f0 d\hich\af0\dbch\af31505\loch\f0 .  He spoke as a true prophet of God.
+\par \hich\af0\dbch\af31505\loch\f0 President Kimball declared: Women are to take care of the family. The Lord has so stated to be an assistant to the husband, to work with him, but not to earn the living, except in unusual circumstances.  Men ought to b
+\hich\af0\dbch\af31505\loch\f0 e men indeed and earn the living under normal circumstances.
+\par \hich\af0\dbch\af31505\loch\f0 President Kimball continues: Too many mothers work away from home to furnish sweaters and music lessons and trips and fun for their children.  Too many women spend their time in socializing, in p
+\hich\af0\dbch\af31505\loch\f0 oliticking, in public services when they should be home to teach and train and receive and love their children into security.
+\par \hich\af0\dbch\af31505\loch\f0 Rem\hich\af0\dbch\af31505\loch\f0 
+ember the counsel of President Kimball to John and Mary: Mary, you are to become a career woman in the greatest career on earth that of homemaker, wife, and mother.  It was never intended by the Lord that married women should compete with men in employmen
+\hich\af0\dbch\af31505\loch\f0 t\hich\af0\dbch\af31505\loch\f0 . 
+\par \hich\af0\dbch\af31505\loch\f0 
+They have a far greater and more important service to render.  Again President Kimball speaks: The husband is expected to support his family and only in an emergency should a wife secure outside employment.  Her place is in the home, to build the home i
+\hich\af0\dbch\af31505\loch\f0 nto a heaven of delight.
+\par \hich\af0\dbch\af31505\loch\f0 
+Numerous divorces can be traced directly to the day when the wife left the home and went out into the world into employment.  Two incomes raise the standard of living beyond its norm.  Two spouses working prevent the complete and p
+\hich\af0\dbch\af31505\loch\f0 roper home life, break into the family prayers, create an independence which is not cooperative, causes distortion, limits the family, and frustrates the children already born.
+\par \hich\af0\dbch\af31505\loch\f0 Finally, President Kimball counsels: I beg of you, you who could and should be \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+rearing a family: wives, come home from the typewriter, the laundry, the nursing, come home from the factory, the caf\'e9\loch\f0 
+.  No career approaches in importance that of wife, homemaker, mother cooking meals, washing dishes, making beds of ones precious husband\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 
+and children.  Come home, wives, to your husbands.  Make home a heaven for them.  Come home, wives, to your children, born and unborn.  Wrap the motherly cloak about you and, unembarrassed, help in a major role to create the bodies for the immortal souls 
+\hich\af0\dbch\af31505\loch\f0 w\hich\af0\dbch\af31505\loch\f0 ho anxiously await.
+\par \hich\af0\dbch\af31505\loch\f0 
+When you have fully complemented your husband in home life and borne the children, growing up full of faith, integrity, responsibility, and goodness, then you have achieved your accomplishment supreme, without peer, and you will be the 
+\hich\af0\dbch\af31505\loch\f0 envy [of all] through time and eternity
+\par \hich\af0\dbch\af31505\loch\f0 President Kimball and  President Benson
+\par \hich\af0\dbch\af31505\loch\f0  
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Beguiling voices
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 There are voices in our midst which would attempt to convince you that these home-centered truths are not applicable to our present-day conditions. If you li
+\hich\af0\dbch\af31505\loch\f0 sten and heed, you will be lured away from your principal obligations.
+\par \hich\af0\dbch\af31505\loch\f0 Beguiling voices in the world cry out for 'alternative life-styles' for women. They maintain that some women are better suited for careers than for marriage and motherhood.
+\par \hich\af0\dbch\af31505\loch\f0 "These indiv\hich\af0\dbch\af31505\loch\f0 
+iduals spread their discontent by the propaganda that there are more exciting and self-fulfilling roles for women than homemaking. Some even have been bold to suggest that the Church move away from the 'Mormon woman stereotype' of homemaking and rearing c
+\hich\af0\dbch\af31505\loch\f0 h\hich\af0\dbch\af31505\loch\f0 ildren.
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (President Benson)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Third Witness
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+You who hold the priesthood have the responsibility, unless disabled, to provide temporal support for your wife and children. No man can shift the burden of responsibility to another, not even to his wife. The Lord has commanded that women and children ha
+\hich\af0\dbch\af31505\loch\f0 v\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+e claim on their husbands and fathers for their maintenance (see D&C 83; 1 Tim. 5:8). President Ezra Taft Benson has stated that when a husband encourages or insists that his wife work out of the home for their convenience, \'93\loch\f0 
+not only will the family suffe\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0 \hich\f0  in such instances, \'85\loch\f0 \hich\f0  but [his] own spiritual growth and progression will be hampered\'94\loch\f0  (Ensign, Nov. 1987, p. 49).
+
+\par \hich\af0\dbch\af31505\loch\f0 We urge you to do all in your power to allow your wife to remain in the home, caring for the children while you provide for the family the be\hich\af0\dbch\af31505\loch\f0 st you can. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Howard W. Hunter)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Fourth Witness
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Some years ago President Benson delivered a message to the women of the Church. He encouraged them to leave their employment and give their individual time to their children. I sustain the position which he too\hich\af0\dbch\af31505\loch\f0 k.
+\par \hich\af0\dbch\af31505\loch\f0 
+Nevertheless, I recognize, as he recognized, that there are some women (it has become very many in fact) who have to work to provide for the needs of their families. To you I say, do the very best you can. I hope that if you are employed full-time you a
+\hich\af0\dbch\af31505\loch\f0 
+re doing it to ensure that basic needs are met and not simply to indulge a taste for an elaborate home, fancy cars, and other luxuries. The greatest job that any mother will ever do will be in nurturing, teaching, lifting, encouraging, and rearing her chi
+\hich\af0\dbch\af31505\loch\f0 l\hich\af0\dbch\af31505\loch\f0 dren in righteousness and truth. None other can adequately take her place.
+\par \hich\af0\dbch\af31505\loch\f0 It is well-nigh impossible to be a full-time homemaker and a full-time employee. I know how some of you struggle with decisions concerning this matter. I repeat, do the very best yo\hich\af0\dbch\af31505\loch\f0 
+u can. You know your circumstances, and I know that you are deeply concerned for the welfare of your children. Each of you has a bishop who will counsel with you and assist you. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (Gordon B. Hinckley, "Women of the Church," , (October 6, 1996)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 A Good Example
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+The whole gamut of human endeavor is now open to women. There is not anything that you cannot do if you will set your mind to it. You can include in the dream of the woman you would like to be a picture of one qualified to serve society and make a signifi
+\hich\af0\dbch\af31505\loch\f0 cant contribution to the world of which she will be a part.
+\par \hich\af0\dbch\af31505\loch\f0 I was in the hospital the other day for a few hours. I became acquainted with my very cheerful and expert nurse. She is the kind of woman of whom you girls could dream. When she was young she deci
+\hich\af0\dbch\af31505\loch\f0 
+ded she wished to be a nurse. She received the necessary education to qualify for the highest rank in the field. She worked at her vocation and became expert at it. She decided she wanted to serve a mission and did so. She married. She has three children.
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 
+She works now as little or as much as she wishes. There is such a demand for people with her skills that she can do almost anything she pleases. She serves in the Church. She has a good marriage. She has a good life. She is the kind of woman of whom you m
+\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 ght dream as you look to the future. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (President Gordon B. Hinckley)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Law of Witnesses
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Elder Henry B. Eyring,a member of the Quorum of the Twelve Apostles, taught the importance of the law of witnesses: \'93\loch\f0 
+In our own time, we have been warned with counsel on \hich\af0\dbch\af31505\loch\f0 
+where to find safety from sin and from sorrow. One of the keys to recognizing those warnings is that they are repeated. For instance, more than once in these general conferences, you have heard our prophet say that he would quote a preceding prophet and w
+\hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 
+uld therefore be a second witness and sometimes even a third. Each of us who has listened has heard President Kimball give counsel on the importance of a mother in the home and then heard President Benson quote him, and we have heard President Hinckley qu
+\hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 te them both. The Apostle Paul wrote that \hich\f0 \lquote \loch\f0 in the mouth of two or three witnesses shall every word be established\hich\f0 \rquote \loch\f0 
+ (2 Corinthians 13:1).One of the ways we may know that the warning is from the Lord is that the law of witnesses, authorized witnesses, has b\hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+en invoked. When the words of prophets seem repetitive, that should rivet our attention and fill our hearts with gratitude to live in such a blessed time. \'93\loch\f0 \hich\f0 
+Looking for the path to safety in the counsel of prophets makes sense to those with strong faith\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (i\hich\af0\dbch\af31505\loch\f0 
+n Conference Report, Apr. 1997, 32; or }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Ensign, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+May 1997, 25).
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Economic Pressures
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Today there is significant pressure in our materialistic world to have and spend more money. Unfortunately, this draws married mothers to work outside the home in order to pro\hich\af0\dbch\af31505\loch\f0 
+vide a second income. As husbands, wives, and children recognize the difference between basic necessities and material wants, they lessen family financial burdens and contribute to helping mothers be at home. Decisions about working outside the home are d
+\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 fficult ones and need to be made prayerfully, keeping ever in mind the counsel of the living prophets on this complex issue. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (M. Russell Ballard, Ensign, March 2006)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Dignity of Work
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+There is great dignity and worth in any honest occupation. Do not use the word menial for any labor that improves the world or the people who live in it. There is no shame in any honorable work.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer, GC, April 1982)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Women can become like Heave\hich\af0\dbch\af31505\loch\f0 nly Mother
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+Women can become like our mother in heaven.  You sisters, I suppose, have read that poem which is sung quite frequently now in our meetings.  It tells us that we not only have a Father in that high and glorious place, but that we have a Mother t
+\hich\af0\dbch\af31505\loch\f0 oo; and you will become as great as your Mother, if you are faithful }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Lorenzo Snow)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Roles are eternal
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Female roles did not begin on earth, and they do not end here. A woman who treasures motherhood on earth will treasure motherhood in the world to come, and 
+\'93\loch\f0 \hich\f0 where [her] treasure is, there will [her] heart be also\'94\loch\f0  (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Matt. 6:21}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 ). By developing a mother heart\hich\af0\dbch\af31505\loch\f0 , each girl and woman prepares for her divine, eternal mission of motherhood. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Julie Beck, General Conference, April, 2004)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 The Essence of Who We Are\'85
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 When we understand the magnitude of motherhood, it becomes clear why prophets have been so protective o\hich\af0\dbch\af31505\loch\f0 f woman\hich\f0 
+\rquote \loch\f0 s most sacred role. While we tend to equate motherhood solely with maternity, }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 in the Lord\hich\f0 \rquote \loch\f0 
+s language, the word mother has layers of meaning}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+. Of all the words they could have chosen to define her role and her essence, both God the Father and Adam ca\hich\af0\dbch\af31505\loch\f0 lled Eve \hich\f0 \lquote \loch\f0 the mother of all living\hich\f0 \rquote \emdash \loch\f0 \hich\f0 
+and they did so before she ever bore a child\'85\loch\f0  Just as worthy men were foreordained to hold the priesthood in mortality, righteous women were endowed premortally with the privilege of motherhood. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Motherhood is more than b\hich\af0\dbch\af31505\loch\f0 earing children}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+, though it is certainly that. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 It is the essence of who we are as women}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 . It defines our very identity, our divine stature and nature, and the unique traits our Father gave us.}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'94\loch\f0  
+}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Sheri Dew, Are we not all mothers?, Oct 2001)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Opportunities
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 I r\hich\af0\dbch\af31505\loch\f0 
+ejoice that opportunities for women in the Church and in the world are increasing. We hope that you will enhance these expanding opportunities by bringing to them your sublime feminine touch. These opportunities are really without limit. }{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (James E. Faust, G\hich\af0\dbch\af31505\loch\f0 eneral Conference, Oct. 2002)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 We Can\hich\f0 \rquote \loch\f0 t Judge Others
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+These are very emotional, personal decisions, but there are two principles that we should always keep in mind. First, no woman should ever feel the need to apologize or feel that her contribution is less \hich\af0\dbch\af31505\loch\f0 
+significant because she is devoting her primary efforts to raising and nurturing children. Nothing could be more significant in our Father in Heaven\hich\f0 \rquote \loch\f0 
+s plan. Second, we should all be careful not to be judgmental or assume that sisters are less valiant if t\hich\af0\dbch\af31505\loch\f0 h\hich\af0\dbch\af31505\loch\f0 
+e decision is made to work outside the home. We rarely understand or fully appreciate people\hich\f0 \rquote \loch\f0 s circumstances. Husbands and wives should prayerfully counsel together, understanding they are accountable to God for their decisions. }
+{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Quentin L Cooks, General C\hich\af0\dbch\af31505\loch\f0 onference, April 2001)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Prioritize above all else
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 There is }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 no}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+ one perfect way to be a good mother. Each situation is unique. Each mother has different challenges, different skills and abilities, and certainly different children. The choice is different and unique for each mother and each family. Many are able to be
+\hich\af0\dbch\af31505\loch\f0  \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 \hich\f0 full-time moms,\'94\loch\f0  at least during the most formative years of their children\hich\f0 \rquote \loch\f0 
+s lives, and many others would like to be. Some may have to work part- or full-time; some may work at home; some may divide their lives into periods of home and family and work. \hich\af0\dbch\af31505\loch\f0 W\hich\af0\dbch\af31505\loch\f0 
+hat matters is that a mother loves her children deeply and, in keeping with the devotion she has for God and her husband, prioritizes them above all else. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(M. Russell Ballard, General Conference, April 2010)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Personal Revelation Key
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 A good woman knows that\hich\af0\dbch\af31505\loch\f0 
+ she does not have enough time, energy, or opportunity to take care of all of the people or do all of the worthy things her heart yearns to do. Life is not calm for most women, and each day seems to require the accomplishment of a million things, most of 
+\hich\af0\dbch\af31505\loch\f0 w\hich\af0\dbch\af31505\loch\f0 
+hich are important. A good woman must constantly resist alluring and deceptive messages from many sources telling her that she is entitled to more time away from her responsibilities and that she deserves a life of greater ease and independence. But with 
+\hich\af0\dbch\af31505\loch\f0 p\hich\af0\dbch\af31505\loch\f0 ersonal revelation, she can prioritize correctly and navigate this life confidently. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Julie Beck, General Conference, April, 2011)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Virtues of Godhood
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The woman, by her very nature, is also co-creator with God and the primary nurturer of the children. Virtu\hich\af0\dbch\af31505\loch\f0 
+es and attributes upon which perfection and exaltation depend come naturally to a woman and are refined through marriage and motherhood. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Boyd K. Packer)
+
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Nurturing and Divinity
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 No other work reaches so close to divinity as does the nurturing of the sons \hich\af0\dbch\af31505\loch\f0 \hich\f0 and daughters of God.\'94\loch\f0  }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Gordon\~B. Hinckley, }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Ensign,}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \~\hich\af0\dbch\af31505\loch\f0 Nov. 1995)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Nurture I
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 All}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ women have within their divine nature both the inherent talent and the stewardship to mother\'85\loch\f0  Today \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+our society is bombarded with messages about womanhood and motherhood that are dangerously and wickedly wrong\'85\loch\f0 
+ Teach your daughters to find joy in nurturing children. This is where their love and talents can have the greatest eternal significance. Conside\hich\af0\dbch\af31505\loch\f0 r\hich\af0\dbch\af31505\loch\f0  in this context President Harold B. Lee
+\hich\f0 \rquote \loch\f0 \hich\f0 s injunction that \'93\loch\f0 the most important\~.\~.\~.\~\hich\f0 work you will ever do will be within the walls of your own homes\'94\loch\f0  (}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 
+\i\ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Teachings of Presidents of the Church: Harold B. Lee}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 [2000], 134). This is true for all of us, of course, but it is especially powerful when considering the relationship of mothers and daughters\'85\loch\f0 . }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (M. Russell Ballard, General Conference, April 2010)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Nurture II
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Sisters, we, your brethren, cannot do what you w\hich\af0\dbch\af31505\loch\f0 
+ere divinely designated to do from before the foundation of the world. We may try, but we cannot ever hope to replicate your unique gifts. There is nothing in this world as personal, as nurturing, or as life changing as the influence of a righteous woman.
+\hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (M. Russell Ballard, General Conference, April 2010)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Nurture III
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 According to \'93\loch\f0 \hich\f0 The Family: A Proclamation to the World,\'94\loch\f0 
+ the principles I have taught about teaching in the home apply to both parents, but they are especially crucial to the role of a mother.\hich\af0\dbch\af31505\loch\f0 
+ Fathers most often spend much of their day away from home in their employment. That is one of the many reasons so much of the responsibility for teaching the child in the home falls on mothers. While circumstances do vary and the ideal isn\hich\f0 
+\rquote \loch\f0 t always possi\hich\af0\dbch\af31505\loch\f0 b\hich\af0\dbch\af31505\loch\f0 le, I believe it is by divine design that the role of motherhood emphasizes the nurturing and teaching of the next generation. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 (L. Tom Perry, \'93\loch\f0 \hich\f0 Mothers Teaching Children in the Home,\'94\loch\f0  }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 Ensign}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 , May 2010, 29\hich\f0 \endash \loch\f0 31)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Grasping at shadows
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Now to others who work when\hich\af0\dbch\af31505\loch\f0 
+ it is not necessary and who, while doing so, leave children to the care of those who often are only poor substitutes, I offer a word of caution. Do not follow a practice which will bring you later regret. If the purpose of your daily employment is simply
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 to get money for \'85\loch\f0 
+ some other desirable but unnecessary thing, and in the process you lose the companionship of your children and the opportunity to rear them, you may find that you have lost the substance while grasping at the shadow. }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (President Hinckley)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Living Sequentially
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\super\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par 
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Women today are being encouraged by some to have it all\hich\f0 \emdash \loch\f0 \hich\f0 generally, all simultaneously: money, travel, marriage, motherhood, separate careers in the world. \'85
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 Doing things sequentially\hich\f0 \emdash \loch\f0 filling roles one at a time at different times\hich\f0 \emdash \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+is not always possible, as we know, but it gives a woman the opportunity to do each thing well in its time and to fill a variety of roles in her life. A woman \'85\loch\f0 
+ may fit more than one career into the various seasons of life. She need not try to sing all of\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 the verses of her song at the same time.\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (James  E. Faust, Ensign, September, 1986.)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Let Go of the World
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 The only way that we may overcome the world is by coming unto Christ. And coming unto Christ means walking away from the world. It means placing Chri
+\hich\af0\dbch\af31505\loch\f0 
+st and Christ only at the center of our lives so that the vanities and philosophies of men lose their addictive appeal. Satan is the god of Babylon, or this world. Christ is the God of Israel, and His Atonement gives us power to overcome the world. "If yo
+\hich\af0\dbch\af31505\loch\f0 u\hich\af0\dbch\af31505\loch\f0 \hich\f0  expect glory, intelligence and endless lives," said President Joseph F. Smith, "let the world go\'93\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (Sheri Dew)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Leading the World
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 We are not women of the world. We are women of God. And women of God will be among the greatest heroines of th\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+e 21st century. As President Joseph F. Smith proclaimed, it is not for us "to be led by the women of the world; it is for [us] to lead \'85\loch\f0 \hich\f0  the women of the world, in everything that is praise-worthy\'93\loch\f0  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (Sheri Dew)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Kingdom Builders
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Finally, my dear sisters, ma\hich\af0\dbch\af31505\loch\f0 
+y I suggest to you something that has not been said before or at least in quite this way. Much of the major growth that is coming to the Church in the last days will come because many of the good women of the world (in whom there is often such an inner se
+\hich\af0\dbch\af31505\loch\f0 n\hich\af0\dbch\af31505\loch\f0 
+se of spirituality) will be drawn to the Church in large numbers. This will happen to the degree that the women of the Church reflect righteousness and articulateness in their lives and to the degree that the women of the Church are seen as distinct and d
+\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 fferent\hich\f0 \emdash \loch\f0 in happy ways\hich\f0 \emdash \loch\f0 from the women of the world. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 
+\hich\af0\dbch\af31505\loch\f0 (President Kimball)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Influencing millions
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 This ability and willingness properly to rear children, the gift to love, and eagerness, yes, longing to express it in soul development, make motherhood the noblest
+\hich\af0\dbch\af31505\loch\f0 
+ office or calling in the world. She who can paint a masterpiece or write a book that will influence millions deserves the admiration and the plaudits of mankind; but she who rears successfully a family of healthy, beautiful sons and daughters, whose infl
+\hich\af0\dbch\af31505\loch\f0 u\hich\af0\dbch\af31505\loch\f0 \hich\f0 ence will be felt through generations to come, \'85\loch\f0  deserves the highest honor that man can give, and the choicest blessings of God }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 (President Benson quoting President McKay)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 What do you do, Dearie?
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Be Careful of the Worlds message
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 She teaches her \'93\loch\f0 children t\hich\af0\dbch\af31505\loch\f0 \hich\f0 o pray, and to walk uprightly before the Lord\'94\loch\f0  (}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \ul\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 D&C 68:28}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+). Rather than listening to the voices and partial truths of the world, she knows that gospel standards are based on eternal, unchangeable truths. She believes that to be \'93\loch\f0 primarily responsible for t\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+he nurture of [her] children\'94\loch\f0 \hich\f0  is a vital, dignified, and \'93\loch\f0 \hich\f0 sacred responsibilit[y]\'94\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(Julie Beck, General Conference, April, 2004)
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs42\alang1025 \ltrch\fcs0 \fs42\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\fs24\cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Be Careful of popular culture
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\kerning24\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 Today ou\hich\af0\dbch\af31505\loch\f0 
+r society is bombarded with messages about womanhood and motherhood [and manhood and fatherhood] that are dangerously and wickedly wrong. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf6\insrsid15825353\charrsid16065549 \hich\af0\dbch\af31505\loch\f0 
+(M. Russell Ballard, General Conference, Apr. 2011)
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf17\insrsid15825353\charrsid16065549 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100aa5225dfc60600008b1a0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec595d8bdb46147d2ff43f08bd3bfe92fcb1c41b6cd9ceb6d94d42eca4e4716c8fadc98e344633de8d0981923c160aa569e943037deb
+43691b48a02fe9afd936a54d217fa17746b63c638fbb9b2585a5640d8b343af7ce997bafce1d4997afdc8fa87384134e58dc708b970aae83e3211b9178d2706f
+f7bbb99aeb7081e211a22cc60d778eb97b65f7c30f2ea31d11e2083b601ff31dd4704321a63bf93c1fc230e297d814c7706dcc920809384d26f951828ec16f44
+f3a542a1928f10895d274611b8bd311e932176fad2a5bbbb74dea1701a0b2e078634e949d7d8b050d8d1615122f89c0734718e106db830cf881df7f17de13a14
+7101171a6e41fdb9f9ddcb79b4b330a2628bad66d7557f0bbb85c1e8b0a4e64c26836c52cff3bd4a33f3af00546ce23ad54ea553c9fc29001a0e61a52917dda7
+dfaab7dafe02ab81d2438bef76b55d2e1a78cd7f798373d3973f03af40a97f6f03dfed06104503af4029dedfc07b5eb51478065e81527c65035f2d34db5ed5c0
+2b5048497cb8812ef89572b05c6d061933ba6785d77daf5b2d2d9caf50500d5975c929c62c16db6a2d42f758d2058004522448ec88f9148fd110aa3840940c12
+e2ec93490885374531e3305c2815ba8532fc973f4f1da988a01d8c346bc90b98f08d21c9c7e1c3844c45c3fd18bcba1ae4cdcb1fdfbc7cee9c3c7a71f2e89793
+c78f4f1efd9c3a32acf6503cd1ad5e7fffc5df4f3f75fe7afeddeb275fd9f15cc7fffed367bffdfaa51d082b5d85e0d5d7cffe78f1ecd5379ffff9c3130bbc99
+a0810eef930873e73a3e766eb10816a6426032c783e4ed2cfa2122ba45339e701423398bc57f478406fafa1c5164c1b5b019c13b09488c0d787576cf20dc0b93
+9920168fd7c2c8001e30465b2cb146e19a9c4b0b737f164fec9327331d770ba123dbdc018a8dfc766653d05662731984d8a07993a258a0098eb170e4357688b1
+6575770931e27a408609e36c2c9cbbc46921620d499f0c8c6a5a19ed9108f232b711847c1bb139b8e3b418b5adba8d8f4c24dc15885ac8f73135c27815cd048a
+6c2efb28a27ac0f791086d247bf364a8e33a5c40a6279832a733c29cdb6c6e24b05e2de9d7405eec693fa0f3c84426821cda7cee23c674649b1d06218aa6366c
+8fc4a18efd881f428922e7261336f80133ef10790e7940f1d674df21d848f7e96a701b9455a7b42a107965965872791533a37e7b733a4658490d08bfa1e71189
+4f15f73559f7ff5b5907217df5ed53cbaa2eaaa0371362bda3f6d6647c1b6e5dbc03968cc8c5d7ee369ac53731dc2e9b0decbd74bf976ef77f2fdddbeee7772f
+d82b8d06f9965bc574abae36eed1d67dfb9850da13738af7b9daba73e84ca32e0c4a3bf5cc8ab3e7b8690887f24e86090cdc2441cac64998f88488b017a229ec
+ef8bae7432e10bd713ee4c19876dbf1ab6fa96783a8b0ed8287d5c2d16e5a3692a1e1c89d578c1cfc6e15143a4e84a75f50896b9576c27ea51794940dabe0d09
+6d329344d942a2ba1c9441520fe610340b09b5b277c2a26e615193ee97a9da6001d4b2acc0d6c9810d57c3f53d30012378a242148f649ed2542fb3ab92f92e33
+bd2d984605c03e625901ab4cd725d7adcb93ab4b4bed0c99364868e566925091513d8c87688417d52947cf42e36d735d5fa5d4a02743a1e683d25ad1a8d6fe8d
+c579730d76ebda40635d2968ec1c37dc4ad9879219a269c31dc3633f1c4653a81d2eb7bc884ee0ddd95024e90d7f1e6599265cb4110fd3802bd149d520220227
+0e2551c395cbcfd24063a5218a5bb104827061c9d541562e1a3948ba99643c1ee3a1d0d3ae8dc848a7a7a0f0a95658af2af3f383a5259b41ba7be1e8d819d059
+720b4189f9d5a20ce0887078fb534ca33922f03a3313b255fdad35a685eceaef13550da5e3884e43b4e828ba98a77025e5191d7596c5403b5bac1902aa8564d1
+080713d960f5a01add34eb1a2987ad5df7742319394d34573dd35015d935ed2a66ccb06c036bb13c5f93d7582d430c9aa677f854bad725b7bed4bab57d42d625
+20e059fc2c5df70c0d41a3b69acca026196fcab0d4ecc5a8d93b960b3c85da599a84a6fa95a5dbb5b8653dc23a1d0c9eabf383dd7ad5c2d078b9af549156df3d
+f44f136c700fc4a30d2f81675470954af8f09020d810f5d49e24950db845ee8bc5ad0147ce2c210df741c16f7a41c90f72859adfc97965af90abf9cd72aee9fb
+e562c72f16daadd243682c228c8a7efacda50bafa2e87cf1e5458d6f7c7d89966fdb2e0d599467eaeb4a5e11575f5f8aa5ed5f5f1c02a2f3a052ead6cbf55625
+572f37bb39afddaae5ea41a5956b57826abbdb0efc5abdfbd0758e14d86b9603afd2a9e52ac520c8799582a45fabe7aa5ea9d4f4aacd5ac76b3e5c6c6360e5a9
+7c2c6201e155bc76ff010000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d652f7468656d652f5f72656c732f
+7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d363f2451eced0dae2c082e8761be
+9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e3198720e274a939cd08a54f980
+ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d9850528a2c6cce0239baa4c04ca5b
+babac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c0200001300000000000000000000000000000000005b436f6e74656e
+745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000000000000000300100005f72656c732f
+2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c00000000000000000000000000190200007468656d652f7468656d652f74
+68656d654d616e616765722e786d6c504b01022d0014000600080000002100aa5225dfc60600008b1a00001600000000000000000000000000d6020000746865
+6d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b0100002700000000000000000000000000d00900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000cb0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax371\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdqformat1 \lsdlocked0 heading 2;\lsdqformat1 \lsdlocked0 heading 3;\lsdqformat1 \lsdlocked0 heading 4;\lsdqformat1 \lsdlocked0 heading 5;\lsdqformat1 \lsdlocked0 heading 6;\lsdqformat1 \lsdlocked0 heading 7;\lsdqformat1 \lsdlocked0 heading 8;
+\lsdqformat1 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e5000000000000000000000000f035
+945af423d101feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
